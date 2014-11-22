@@ -1,0 +1,29 @@
+{
+  "name": "node-cli-boilerplate",
+  "description": "a simple boilerplate for writing node cli apps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "Joe Muraski",
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "cli": "./bin/cli"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+    "commander": "^2.2.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "gulp": "^3.6.1",
+    "gulp-coffee": "^1.4.2",
+    "gulp-plumber": "^0.6.1"
+  }
+}
