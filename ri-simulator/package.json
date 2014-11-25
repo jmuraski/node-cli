@@ -1,11 +1,9 @@
 {
-  "name": "node-cli-boilerplate",
-  "description": "a simple boilerplate for writing node cli apps",
+  "name": "ri-simulator",
+  "description": "command line tool to submit beacon data for Remote Insghts",
   "version": "1.0.0",
   "main": "index.js",
-  "author": {
-    "name": "Joe Muraski",
-  },
+  "author": "Joe Muraski",
   "licenses": [
     {
       "type": "MIT"
@@ -13,7 +11,7 @@
   ],
   "preferGlobal": true,
   "bin": {
-    "cli": "./bin/cli"
+    "riSim": "./bin/riSim"
   },
   "engines": {
     "node": ">= 0.10.0"
